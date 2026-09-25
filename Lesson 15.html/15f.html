@@ -1,0 +1,60 @@
+<html>
+  <head>
+<style>
+    .product-card{
+        display:inline-block;
+        position:relative;
+    }
+      .promotion{
+        background-color: black;
+        position:absolute;
+       color:white;
+       top:10px;
+       right:0px;
+
+
+      }
+      body{
+        height:3000px;
+
+      }
+      
+       .product-image{
+        object-fit: cover;
+
+        }
+      .layover{
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 80px;
+         background-color: rgba(255, 255, 255, 0.8);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       
+      }
+      .add{
+        border-width:1px;
+        border-style:solid;
+        background-color: white;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+</style>
+  </head>
+  <body>
+    <div class="product-card">
+      <img class="product-image" src="top.png">
+      <div class="promotion">20% OFF</div>
+    </div>
+    <div class="layover">
+    <button class="add">Add to cart</button>
+    </div>
+    </div>
+  </body>
+</html>
