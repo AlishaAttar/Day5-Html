@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <style>
+        p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-title-link {
+  text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+             <a href=" https://youtu.be/xTtL8E4LzTQ" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/java.webp">
+          </a>
+          <div class="video-time">12:00:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@BroCodez" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel1.jpeg">
+            </a>
+            
+          </div>
+          <div class="video-info">
+            <a href=" https://youtu.be/xTtL8E4LzTQ" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Java full course for free
+            </p>
+            </a>
+            <p class="video-author">
+              Bro Code
+            </p>
+            <p class="video-stats">
+              4.8M views &#183; 8 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <a href=" https://youtu.be/LCmySMWuaYk" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/daisies.webp">
+          </a>
+          <div class="video-time">2:57</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@7clouds" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel2.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+             <a href=" https://youtu.be/LCmySMWuaYk" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Justin Beiber DAISIES(Lyrics)
+            </p>
+            </a>
+            <p class="video-author">
+              7 clouds
+            </p>
+            <p class="video-stats">
+              4.3M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <a href=" https://youtu.be/cRit2E00_lQ" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/holder.webp">
+          </a>
+          <div class="video-time">1:12:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@lilthingsworld" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel3.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href=" https://youtu.be/cRit2E00_lQ" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Crochet miffy glasses holder
+            </p>
+            </a>
+            <p class="video-author">
+              lilthings
+            </p>
+            <p class="video-stats">
+              587k views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <a href=" https://youtu.be/5dlrOosqSb8" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/shinchan.webp">
+          </a>
+          <div class="video-time">32:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@TAS-OFFICIALS" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel4.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href=" https://youtu.be/5dlrOosqSb8" target="_blank" class="video-title-link">
+            <p class="video-title">
+             Shinchan in hindi new episode
+            </p>
+            </a>
+            <p class="video-author">
+              Tas official
+            </p>
+            <p class="video-stats">
+              300k views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <a href=" https://youtu.be/h_tL16PZ0IE" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/zayn.webp">
+          </a>
+          <div class="video-time">3:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@OneDirectionVEVO" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel5.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href=" https://youtu.be/h_tL16PZ0IE" target="_blank" class="video-title-link">
+            <p class="video-title">
+              Night changes official music video
+            </p>
+            </a>
+            <p class="video-author">
+              One Direction
+            </p>
+            <p class="video-stats">
+              50m views &#183; 10 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+             <a href=" https://youtu.be/h_tL16PZ0IE" target="_blank" class="video-title-link">
+          <img class="thumbnail" src="thumbnails/anya.webp">
+        </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@MuseAsia" target="_blank">
+            <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href=" https://youtu.be/h_tL16PZ0IE" target="_blank" class="video-title-link">
+            <p class="video-title">
+              SPY x FAMILY [English sub]
+            </p>
+              </a>
+            <p class="video-author">
+              Muse Asia
+            </p>
+            <p class="video-stats">
+              14M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
